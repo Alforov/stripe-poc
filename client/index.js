@@ -63,14 +63,14 @@ init = async (name, email) => {
     closePopup();
 
 
-    if (stripeError) {
+/*    if (stripeError) {
       addMessage(stripeError.message);
 
       // reenable the form.
       submitted = false;
       form.querySelector('button').disabled = false;
       return;
-    }
+    }*/
   });
 }
 const form = document.getElementById('userForm');
