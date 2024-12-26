@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   };
   const {
     confirm
-  } = await fetch('/confirm-setup-intent', {
+  } = await fetch('/validate-stipe-intent', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
